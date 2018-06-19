@@ -1,0 +1,11 @@
+<template name="noData">    
+    <view>
+
+           没有数据哦！
+    </view>
+</template>
+<template name="data">    
+  <view wx:for='{{data}}' wx:key='{{key}}'> 
+  <view>{{item}}</view> 
+  </view>
+</template>   

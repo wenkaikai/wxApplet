@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/switch/switch",
+    "pages/list/list",
+    "pages/templateIndex/templateIndex",
+    "pages/template/template",
     "pages/index/index",
     "pages/page1/page1",
     "pages/logs/index"
