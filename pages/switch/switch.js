@@ -11,7 +11,7 @@ Page({
     numberArray: [1, 2, 3, 4]
   },
   switch: function (e) {
-    console.log(e)
+    console.log(this)
     const length = this.data.objectArray.length
     for (let i = 0; i < length; ++i) {
       const x = Math.floor(Math.random() * length)

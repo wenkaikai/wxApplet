@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/switch/switch",
+    "pages/mode-select/mode-select",
     "pages/list/list",
+    "pages/switch/switch",
     "pages/templateIndex/templateIndex",
     "pages/template/template",
     "pages/index/index",

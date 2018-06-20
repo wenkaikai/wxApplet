@@ -9,7 +9,8 @@ Page({
       message: 'foo',
     }, {
       message: 'bar'
-    }]
+    }],
+    str:"12345"
   },
 
   /**
