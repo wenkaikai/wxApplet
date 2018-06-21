@@ -1,21 +1,26 @@
-// pages/templateIndex/templateIndex.js
+// pages/button/button.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    eg:{
-      result: [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    }
+    isShow:true
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var arry = this.data.eg.data;
-    console.log(...arry)
+    wx.showActionSheet({
+      itemList: ['A', 'B', 'C'],
+      success: function (res) {
+        console.log(res.tapIndex)
+      },
+      fail: function (res) {
+        console.log(res.errMsg)
+      }
+    })
   },
 
   /**
@@ -65,5 +70,8 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  submitEvent:function(){
+    console.log("okkjdj")
   }
 })

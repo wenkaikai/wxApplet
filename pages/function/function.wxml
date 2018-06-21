@@ -1,0 +1,2 @@
+<!--pages/function/function.wxml-->
+<text bindtap="test">pages/function/function.wxml</text>

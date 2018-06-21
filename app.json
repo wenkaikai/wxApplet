@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/button/button",
+"pages/templateIndex/templateIndex",
+    "pages/function/function",
     "pages/switch/switch",
     "pages/list/list",
-    "pages/templateIndex/templateIndex",
     "pages/template/template",
     "pages/index/index",
     "pages/page1/page1",

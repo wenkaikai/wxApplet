@@ -1,0 +1,6 @@
+<!--pages/button/button.wxml-->
+<form bindsubmit="submitEvent">
+  <button wx:if="{{isShow}}">好的</button>
+  <button formType="submit">ok</button>
+</form>
+

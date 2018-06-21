@@ -5,7 +5,7 @@
     </view>
 </template>
 <template name="data">    
-  <view wx:for='{{data}}' wx:key='{{key}}'> 
-  <view>{{item}}</view> 
+  <view wx:for='{{result}}' wx:key='{{key}}'> 
+    <view>{{item}}</view> 
   </view>
 </template>   

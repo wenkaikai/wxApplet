@@ -2,6 +2,6 @@
 <import src="../template/template.wxml"/>  
 
 <view class="container">
-     <template is="{{eg.data.length> 0 ? 'data' : 'noData'}}" data="{{...eg}}"></template>  
+     <template is="{{eg.result.length> 0 ? 'data' : 'noData'}}" data="{{...eg}}"> </template>  
       <!-- //此时进行判断该用哪个模板判断template 的name属性,eg是指要传入模板的数据 -->
 </view>

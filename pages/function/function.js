@@ -1,21 +1,18 @@
-// pages/templateIndex/templateIndex.js
+// pages/function/function.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    eg:{
-      result: [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    }
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var arry = this.data.eg.data;
-    console.log(...arry)
+  
   },
 
   /**
@@ -65,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  test(){
+    console.log(this)
+    console.log("okkkkkk")
   }
+
 })
