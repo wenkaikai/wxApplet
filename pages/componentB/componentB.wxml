@@ -1,0 +1,5 @@
+<!--pages/componentB/componentB.wxml-->
+<my-component id="test">
+  <view>好的额</view>
+  <!--组件函数传值  -->
+</my-component>

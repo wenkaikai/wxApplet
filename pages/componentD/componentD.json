@@ -1,0 +1,7 @@
+{
+  "usingComponents":{
+    "my-componentA":"../component-d1/component-d1",
+    "my-componentB": "../component-d2/component-d2"
+  }
+
+}

@@ -1,27 +1,53 @@
 {
   "pages": [
+    "pages/componentC/componentC",
+    "pages/componentD/componentD",
+    "pages/component-d2/component-d2",
+    "pages/component-d1/component-d1",
+    "pages/component-c/component-c",
+    "pages/componentB/componentB",
+    "pages/component-b/component-b",
+    "pages/componentIndex1/componentIndex1",
+    "pages/componentA/componentA",
+    "pages/component-a/component-a",
+    "pages/onReachBottom/onReachBottom",
+    "pages/request/request",
+    "pages/animation/animation",
+    "pages/componentIndex/componentIndex",
+    "pages/layout/layout",
+    "pages/mode-select/mode-select",
+    "pages/canvas/canvas",
+    "pages/list/list",
+    "pages/richText/richText",
+    "pages/templateIndex/templateIndex",
+    "pages/createSelectorQuery/createSelectorQuery",
+    "pages/web-view/web-view",
+    "pages/custom-component/custom-component",
+    "pages/component-one/component-one",
+    "pages/component1/component1",
+    "pages/component/component",
+    "pages/form/form",
     "pages/button/button",
-"pages/templateIndex/templateIndex",
     "pages/function/function",
     "pages/switch/switch",
-    "pages/list/list",
     "pages/template/template",
     "pages/index/index",
     "pages/page1/page1",
     "pages/logs/index"
   ],
   "window": {
-    "navigationBarTitleText": "Demo11"
+    "navigationBarTitleText": "Demo11",
+    "enablePullDownRefresh":false
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "Ê×Ò³"
+        "text": "ï¿½ï¿½Ò³"
       },
       {
         "pagePath": "pages/logs/index",
-        "text": "ÈÕÖ¾"
+        "text": "ï¿½ï¿½Ö¾"
       }
     ]
   },

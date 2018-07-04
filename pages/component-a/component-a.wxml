@@ -1,0 +1,9 @@
+<!--pages/component-a/component-a.wxml-->
+<view>
+     <slot name="name1"></slot> 
+    <view>
+      我必须出现在父亲模板中
+    </view>
+    <slot name="name2"></slot> 
+</view>
+

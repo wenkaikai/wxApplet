@@ -1,0 +1,6 @@
+<view>
+  <component-tag-name>
+    <view slot="name1">这是一个没有插槽的</view>
+    <view slot="name2">这是一个没有插槽的1</view>
+  </component-tag-name>
+</view>

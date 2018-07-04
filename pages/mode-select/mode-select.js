@@ -20,7 +20,8 @@ Page({
     ]
   },
   bindPickerChange: function (e) {
-    console.log('picker发送选择改变，携带值为', e.detail.value)
+    console.log(e)
+    // console.log('picker发送选择改变，携带值为', e.detail.value)
     var index = e.detail.value;
     var currentId = this.data.objectArray[index].id; // 这个id就是选中项的id
     console.log(currentId);

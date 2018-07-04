@@ -1,24 +1,19 @@
-// pages/templateIndex/templateIndex.js
+// pages/componentB/componentB.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    eg:{
-      result: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-       result1: [1, 2, 3, 4, 5, 6, 7, 8, 9,20]
-    }
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var data = this.data.eg.result;
-    console.log(...data)
-    console.log( wx.DEFAULT_HEADER_HEIGHT)
-    console.log(wx.STATUS_BAR_HEIGHT)
+    var component = this.selectComponent("#test");
+    component.fun("valuesdfsdf");//这样直接可一调用组件里面的方法
   },
 
   /**
@@ -68,8 +63,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  click(){
-    wx.showToast({title:"falsjfla"})
   }
 })

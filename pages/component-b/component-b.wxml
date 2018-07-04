@@ -1,0 +1,4 @@
+<!--pages/component-b/component-b.wxml-->
+<view>
+  <slot></slot>
+</view>

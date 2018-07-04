@@ -1,0 +1,7 @@
+<!--pages/request/request.wxml-->
+
+<view wx:for="{{fruitList}}" style="margin-top:30px;" wx:key="*this">
+  <view>{{item.name}}</view>
+  <view><image src="{{item.url}}"></image></view>
+  <view>{{item.price}}元</view>
+</view>

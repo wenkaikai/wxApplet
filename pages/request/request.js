@@ -1,24 +1,27 @@
-// pages/templateIndex/templateIndex.js
+// pages/request/request.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    eg:{
-      result: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-       result1: [1, 2, 3, 4, 5, 6, 7, 8, 9,20]
-    }
+    fruitList:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var data = this.data.eg.result;
-    console.log(...data)
-    console.log( wx.DEFAULT_HEADER_HEIGHT)
-    console.log(wx.STATUS_BAR_HEIGHT)
+    wx.request({
+      url: 'https://www.easy-mock.com/mock/5b3981c7c4dcd03fb7171981/example/test1',
+      complete: res => {
+        this.setData({
+          fruitList:res.data.data
+        })
+       console.log(this.data.fruitList); 
+      },
+    });
+
   },
 
   /**
@@ -59,8 +62,8 @@ Page({
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
-  
+  onReachBottom: function (e) {
+      
   },
 
   /**
@@ -68,8 +71,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  click(){
-    wx.showToast({title:"falsjfla"})
   }
 })

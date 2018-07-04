@@ -1,24 +1,24 @@
-// pages/templateIndex/templateIndex.js
+// pages/form/form.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    eg:{
-      result: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-       result1: [1, 2, 3, 4, 5, 6, 7, 8, 9,20]
-    }
+    setData:1234,
+    setData1: 45678
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var data = this.data.eg.result;
-    console.log(...data)
-    console.log( wx.DEFAULT_HEADER_HEIGHT)
-    console.log(wx.STATUS_BAR_HEIGHT)
+    var setData="haode"
+    var setData1 = "okkk"
+    this.setData({
+      setData,setData1
+    })
+    console.log(this.data);
   },
 
   /**
@@ -68,8 +68,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  click(){
-    wx.showToast({title:"falsjfla"})
   }
 })

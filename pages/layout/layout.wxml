@@ -1,0 +1,5 @@
+<!--pages/layout/layout.wxml-->
+<view style='width:60px;font-size:24rpx' bindtap="current" value="123">
+<text>好的好的好的好的</text>
+<text>好饿</text>
+</view>

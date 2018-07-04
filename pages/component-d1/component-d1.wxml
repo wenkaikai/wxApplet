@@ -1,0 +1,5 @@
+<!--pages/component-d1/component-d1.wxml-->
+<view>
+  <view>這個是component-d1的組件</view>
+  <slot></slot>
+</view>

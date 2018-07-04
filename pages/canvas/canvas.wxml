@@ -1,0 +1,8 @@
+<!-- <view style = "id{{id}}">
+<canvas canvas-id="myCanvas"  style="border: 1px solid;width:375px;height:500px;visbility:hidden;opacty:0;"/>
+
+</view> -->
+
+    <view >  
+      <canvas canvas-id='myCanvas' style="border: 1px solid;width:375px;height:500px;" ></canvas>  
+    </view>  

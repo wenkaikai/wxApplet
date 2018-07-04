@@ -21,6 +21,8 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    console.log(app.globalData)
+    console.log(app.globalData.signCount)
   //  const b = wx.canIUse('openBluetoothAdapter');
   //  console.log(b)
   //  wx.showToast({

@@ -1,0 +1,7 @@
+<!--pages/component-b/component-b.wxml-->
+<view>
+<!--这样直接能取到父亲组件传过来的值  -->
+<view bindtap="fun">{{valueq.b}}</view>
+<!--点击字元素触发父亲元素的事件  -->
+    <slot></slot>  
+</view>

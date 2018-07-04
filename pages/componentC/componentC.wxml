@@ -1,0 +1,6 @@
+<!--pages/componentB/componentB.wxml-->
+<!-- <my-component id="test" value='str' valueq='{{obj}}'> -->
+ <my-component id="test" value='str' valueq='{{obj}}' bind:action='exFun' > 
+  <view bindtap="fun1">好的额</view>
+  <!--组件函数传值  -->
+</my-component>

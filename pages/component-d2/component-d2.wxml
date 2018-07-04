@@ -1,0 +1,11 @@
+<!--pages/component-d2/component-d2.wxml-->
+
+  <view>
+  这是组件component-d3
+  
+  </view>
+  <view>
+  <slot></slot>
+  </view>
+ 
+ 
