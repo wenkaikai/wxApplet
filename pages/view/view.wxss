@@ -1,0 +1,7 @@
+/* pages/view/view.wxss */
+.section{
+  width:50%;
+  height:50%;
+  background-color:#f60;
+}
+.active{background-color:#f00}

@@ -1,7 +1,12 @@
 {
   "pages": [
-    "pages/componentC/componentC",
+    "pages/text/text",
+    "pages/scroll-view/scroll-view",
+    "pages/view/view",
+    "pages/list/list",
+    "pages/table/table",
     "pages/componentD/componentD",
+    "pages/componentC/componentC",
     "pages/component-d2/component-d2",
     "pages/component-d1/component-d1",
     "pages/component-c/component-c",
@@ -17,7 +22,6 @@
     "pages/layout/layout",
     "pages/mode-select/mode-select",
     "pages/canvas/canvas",
-    "pages/list/list",
     "pages/richText/richText",
     "pages/templateIndex/templateIndex",
     "pages/createSelectorQuery/createSelectorQuery",

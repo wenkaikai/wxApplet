@@ -1,0 +1,14 @@
+/* pages/scroll-view/scroll-view.wxss */
+
+[class|=scroll]{
+  height:200rpx;
+}
+.scroll-view_H{white-space:nowrap;}
+.scroll-view_H view{
+  display:inline-block;
+  width:100%;
+}
+#green{background:green;}
+#red{background:red;}
+#yellow{background:yellow;}
+#blue{background:blue;}

@@ -1,0 +1,3 @@
+<!--pages/text/text.wxml-->
+<text selectable="false" decode="true">我爱你&emsp;&gt;中国</text>
+<view decode="true">我爱你北京</view>

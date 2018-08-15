@@ -1,4 +1,4 @@
-// pages/componentD/componentD.js
+// pages/view/view.js
 Page({
 
   /**
@@ -62,8 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
-  ,fun1(){
-    console.log("这是slot里面的事件");
   }
 })

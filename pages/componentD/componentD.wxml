@@ -1,6 +1,6 @@
 <!--pages/componentD/componentD.wxml-->
 <my-componentA>
    <my-componentB>
-      <view>这个是父亲组件B</view>
+      <view bindtap="fun1">这个是父亲组件B</view>
   </my-componentB> 
 </my-componentA>
